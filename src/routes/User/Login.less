@@ -1,0 +1,98 @@
+@import '~antd/lib/style/themes/default.less';
+
+.mainBg {
+  width: 600px;
+  height: 100%;
+  background: rgba(20, 76, 111, 0.22);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  :global {
+    .ant-tabs-nav .ant-tabs-tab {
+      color: rgba(250, 250, 250, 0.6);
+    }
+    .ant-tabs-nav .ant-tabs-tab-active {
+      color: #fff;
+    }
+    .ant-tabs-nav .ant-tabs-tab:hover {
+      color: #fff;
+    }
+    .ant-tabs-ink-bar {
+      background-color: #fff;
+    }
+    .ant-checkbox-wrapper + span,
+    .ant-checkbox + span {
+      color: rgba(250, 250, 250, 0.6);
+    }
+    .ant-alert-error {
+      border: none;
+    }
+    // addnew css for login tabs
+    .ant-tabs-nav-container-scrolling {
+      padding: 0;
+      width: 100%;
+    }
+    .ant-tabs-tab-next.ant-tabs-tab-arrow-show,
+    .ant-tabs-tab-prev.ant-tabs-tab-arrow-show {
+      display: none;
+      width: 0;
+    }
+    .login___1MW8J .tabs___1ljDi {
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
+.main {
+  width: 342px;
+  top: 50%;
+  position: absolute;
+  right: 130px;
+  margin-top: -190px;
+  @media screen and (max-width: @screen-sm) {
+    width: 95%;
+  }
+
+  .icon {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.2);
+    margin-left: 16px;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: color 0.3s;
+
+    &:hover {
+      color: @primary-color;
+    }
+  }
+
+  .other {
+    text-align: left;
+    margin-top: 24px;
+    line-height: 22px;
+
+    .register {
+      float: right;
+    }
+  }
+  .antInputLg {
+    padding: 0 10px;
+    height: 46px;
+    background: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(250, 250, 250, 0.6);
+    color: #fff;
+    font-size: 14px;
+  }
+  .loginLink {
+    float: right;
+    color: rgba(250, 250, 250, 0.6);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  right: 50%;
+  margin-left: -218px;
+}

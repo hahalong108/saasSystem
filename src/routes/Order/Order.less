@@ -1,0 +1,220 @@
+.container {
+  width: 100%;
+  min-width: 940px;
+}
+.btn {
+  height: 32px;
+  line-height: 32px;
+  float: right;
+  margin-left: 8px;
+  margin-top: 3px;
+}
+:global {
+  .ant-form-item {
+    margin-bottom: 12px;
+  }
+  // .ant-message-notice-content{border-left:6px solid #52c41a;}
+  .ant-layout {
+    color: #f5f6fa;
+    background: #fff;
+  }
+  .ant-table table {
+    background: #fff;
+  }
+  .ant-modal-body {
+    padding: 24px 30px;
+  }
+  .ant-modal-footer {
+    padding: 12px 30px;
+  }
+  .ant-modal-body {
+    max-height: 450px;
+    overflow-y: scroll;
+  }
+  .ant-pagination {
+    float: right;
+  }
+  .ant-pagination-item {
+    border-radius: 50%;
+    min-width: 28px;
+    height: 28px;
+    line-height: 28px;
+  }
+  .ant-pagination-prev,
+  .ant-pagination-next,
+  .ant-pagination-jump-prev,
+  .ant-pagination-jump-next {
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+  }
+  .ant-pagination-prev .ant-pagination-item-link:after,
+  .ant-pagination-next .ant-pagination-item-link:after {
+    height: 26px;
+  }
+  .ant-pagination-item-active {
+    background: #02c3e6;
+    color: #fff;
+    a {
+      color: #fff;
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+  .ant-pagination-item-active:focus a,
+  .ant-pagination-item-active:hover a {
+    color: #fff;
+  }
+  .ant-pagination-prev .ant-pagination-item-link,
+  .ant-pagination-next .ant-pagination-item-link {
+    border-radius: 50%;
+    width: 28px;
+  }
+  .ant-pagination-options-quick-jumper input {
+    height: 28px;
+    border-radius: 25px;
+  }
+}
+.pageDiv {
+  padding: 20px;
+  &::after {
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+  }
+}
+.pageStyle {
+  float: right;
+  height: 32px;
+  line-height: 32px;
+  margin-left: 18px;
+  margin-right: 11px;
+  select {
+    cursor: pointer;
+    border-radius: 25px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    min-width: 60px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    border: 1px solid #d9d9d9;
+    background-color: #fff;
+    margin-right: 8px;
+    padding-left: 10px;
+    font-family: Arial;
+    outline: 0;
+    margin-left: 8px;
+  }
+}
+.pageBox {
+  padding: 20px 0;
+  &:after {
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+  }
+}
+.pageWrap {
+  float: right;
+  height: 28px;
+  line-height: 28px;
+  margin-left: 16px;
+  .selectOption {
+    width: 100px;
+  }
+}
+.floatLeft {
+  float: left;
+  line-height: 32px;
+}
+.floatRight {
+  float: right;
+  line-height: 32px;
+}
+.selectOption :global(.ant-select-selection) {
+  height: 28px;
+  line-height: 28px;
+  border-radius: 25px;
+  margin-top: 2px;
+}
+.selectOption :global(.ant-select-selection__rendered) {
+  line-height: 28px;
+}
+.selectOption :global(.ant-select-selection-selected-value) {
+  padding-right: 12px;
+}
+.alignLeft {
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  height: 30px;
+  line-height: 30px;
+  color: #02c3e6;
+  cursor: pointer;
+  width: 100px;
+  display: block;
+}
+
+.floatLeft {
+  float: left;
+}
+.textAlignLeft {
+  text-align: left;
+}
+.paddingLeft {
+  padding-left: 12px;
+}
+.paddingRight {
+  padding-right: 12px;
+}
+.floatRight {
+  float: right;
+}
+.textAlignRight {
+  text-align: right;
+}
+.messageBox {
+  margin: 12px;
+  width: 90%;
+}
+.messageP {
+  height: 24px;
+  line-height: 24px;
+  margin-bottom: 12px;
+  color: #bbb;
+}
+.messageLabel {
+  max-width: 80px;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.messageTextarea {
+  max-width: 380px;
+  min-width: 100px;
+  padding: 10px;
+  line-height: 24px;
+  font-size: 14px;
+  min-height: 60px;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.15);
+  border-style: solid;
+}
+.mineArea {
+  background-color: #eee;
+}

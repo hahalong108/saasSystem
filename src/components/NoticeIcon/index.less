@@ -1,0 +1,41 @@
+@import '~antd/lib/style/themes/default.less';
+
+.iconfont {
+  font-family: 'iconfont' !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.popover {
+  width: 336px;
+  :global(.ant-popover-inner-content) {
+    padding: 0;
+  }
+}
+
+.noticeButton {
+  cursor: pointer;
+  display: inline-block;
+  transition: all 0.3s;
+}
+
+.icon {
+  font-size: 16px;
+  &:hover {
+    color: #24a5e8;
+  }
+}
+
+.tabs {
+  :global {
+    .ant-tabs-nav-scroll {
+      text-align: center;
+    }
+    .ant-tabs-bar {
+      margin-bottom: 4px;
+    }
+  }
+}
