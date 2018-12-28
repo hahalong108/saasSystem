@@ -21,13 +21,13 @@ export default {
   disableDynamicImport: true,
   publicPath: '/',
   hash: true,
-    proxy:{
-    "/api/*":{
-      target:"http://192.168.252.213/api/",
-      changeOrigin:true,
-      "pathRewrite": { "^/api/" : "" }
-    }
-  }
+  //   proxy:{
+  //   "/api/*":{
+  //     target:"http://192.168.252.213/api/",
+  //     changeOrigin:true,
+  //     "pathRewrite": { "^/api/" : "" }
+  //   }
+  // }
     // proxy:{
     //     "/api/*":{
     //         target:"http://192.168.252.210:8888",
